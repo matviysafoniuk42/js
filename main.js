@@ -13,8 +13,6 @@ userForm.addEventListener("submit", function (event) {
 
   localStorage.setItem("userData", JSON.stringify(userData));
 
-  console.log("Дані збережено:", userData);
-
   userForm.reset();
 
   const modalElement = document.getElementById("userModal");
